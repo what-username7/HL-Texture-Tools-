@@ -1,22 +1,15 @@
-Half-Life Texture Tools
+Half-Life Texture Tools 简体中文版
 ================
 
 ![screenshot](https://yuraj.ucoz.com/HLTextureTools_15.png)
 
-Half-Life 1 (and mods like SC, CS etc.) data files tool - view and edit WADs and Sprite files. You can also extract images to many formats (png, jpg, bmp, gif, tiff). Drag and Drop files is supported.
+半条命1（以及 SC、CS 等 MOD）的数据文件工具 - 可查看和编辑WAD和Sprite文件。还可将图像提取为多种格式（png、jpg、bmp、gif、tiff）。支持拖放文件
 
-You will need .NET Framework 4.8+ to run this application.
+运行此应用程序需要 .NET Framework 4.8 及以上版本
 
-*This software uses the FreeImage open source image library. See http://freeimage.sourceforge.net for details.*
+*本软件使用FreeImage开源图像库。详情请参见http://freeimage.sourceforge.net*
 
-Current version: **1.6.2** ([changelog](CHANGELOG.md))
+#### 下载最新的Windows版本（原版）[here](https://github.com/yuraj11/HL-Texture-Tools/releases).
 
-#### Download latest Windows version (binary) [here](https://github.com/yuraj11/HL-Texture-Tools/releases).
+*在调试或生成时将FreeImage.dll从`pack\ages\FreeImageNET.xx\runtimes\win7-x86`复制到 debug/release目录*
 
-#### TODO
-
-
-- autoresize images when creating new wad
-- editing WAD/SPR files (adding images to opened wad/spr)
-
-*Copy FreeImage.dll from `\packages\FreeImageNET.xx\runtimes\win7-x86` while debugging or releasing into debug/release directory.*
