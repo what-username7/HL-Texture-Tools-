@@ -1,0 +1,29 @@
+﻿<!doctype html>
+<html lang="zh">
+	<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style>
+		* {
+			font-family: Verdana,Geneva,sans-serif; 
+		}
+
+		ul  {
+			 margin-left: 0px;
+			 padding-left: 2em;
+		}
+	</style>
+	</head>
+	<body>
+		<b>⚠️ 警告:</b>
+		<ul>
+			<li>你必须手动检查sprite中的每个图像的像素数是否都能被8整除。</li>
+			<li>HL sprites 只支持最大256色的图像，请尽量使用8bpp的BMP文件。</li>
+		</ul>
+
+		<b>💡 提示:</b>
+		<ul>
+			<li>你可以使用透明的PNG - 透明色将自动替换为设置部分中定义的颜色。</li>
+		</ul>
+	</body>
+</html>

@@ -1,0 +1,40 @@
+﻿<!doctype html>
+<html lang="zh">
+	<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style>
+		* {
+			font-family: Verdana,Geneva,sans-serif; 
+		}
+
+		ul  {
+			 margin-left: 0px;
+			 padding-left: 2em;
+		}
+	</style>
+	</head>
+	<body>
+		<b>⚠️ 警告:</b>
+		<ul>
+			<li>你必须手动检查WAD中的每个图像的像素数是否都能被8整除</li>
+			<li>HL WAD 仅支持最大256色的图像。请尽量使用8bpp的BMP文件，也可以使用任何图像文件格式，但都将转换为8bpp格式。</li>
+		</ul>
+
+		<b>💡 提示:</b>
+		<ul>
+			<li>您可以使用透明的PNG - 透明色将自动替换为设置部分中定义的颜色。</li>
+			<li>如果要创建喷漆，只需添加一张图片（宽*高必须等于或小于 10752，请查看帮助菜单中的纹理尺寸表），设置纹理名称{LOGO并保持选中选项，保留调色板中的最后一种颜色。</li>
+		</ul>
+
+		<b>纹理名称的第一个字符表示纹理的属性:</b>
+		<ul>
+			<li>{ 透明</li>
+			<li>! 水</li>
+			<li>+ 动画化</li>
+			<li>+A 可切换的动画化</li>
+			<li>- 随机平铺</li>
+			<li>~ 灯光</li>
+		</ul>
+	</body>
+</html>
